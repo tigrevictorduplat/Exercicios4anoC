@@ -19,7 +19,8 @@ namespace ProjetoExercicios {
 
             //CalculadoraLoop.somarEnquanto();
             //CalculadoraLoop.calculaFatorial();
-            CalculadoraLoop.imprimeIntervalo();
+            //CalculadoraLoop.imprimeIntervalo();
+            CalculadoraLoop.tabelaConversaoFahrenheitCelsius();
         }
     }
 }

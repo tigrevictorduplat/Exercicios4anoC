@@ -70,5 +70,31 @@ namespace ProjetoExercicios
             }
             Console.ReadKey();
         }
+
+        public static void tabelaConversaoFahrenheitCelsius(){
+            double grausCelcius;
+            Console.WriteLine("Bem vindo ao Conversor de para Celcius!"); 
+            Console.WriteLine("Escolha o intervalo [dois números inteiros]");
+            Console.WriteLine("Começo");
+            int comecoIntervalo = int.Parse(Console.ReadLine());
+            Console.WriteLine("Final");
+            int finalIntervalo = int.Parse(Console.ReadLine());
+            int i = comecoIntervalo;
+            Console.WriteLine("Fahrenheit || Celcius");
+            while (i >= comecoIntervalo && i <= finalIntervalo)
+            {
+                grausCelcius = (5 * (i - 32)) / 9;
+                Console.WriteLine($"{i}F° || {grausCelcius}C°");
+                i++;
+            };
+            Console.WriteLine("------------------------------");
+            Console.ReadKey();
+        }
+
+        public static void sistemaEleitoral()
+        {
+            Console.WriteLine("Bem vindo ao Sistema Eleitoral! \n" +
+                " Digite aqui em quem você vai votar");
+        }
     }
 }
