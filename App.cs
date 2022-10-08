@@ -1,6 +1,5 @@
-﻿using System;
-
-namespace ProjetoExercicios {
+﻿namespace ProjetoExercicios
+{
     public class App
     {
         static public void Main(String[] args)
@@ -20,7 +19,8 @@ namespace ProjetoExercicios {
             //CalculadoraLoop.somarEnquanto();
             //CalculadoraLoop.calculaFatorial();
             //CalculadoraLoop.imprimeIntervalo();
-            CalculadoraLoop.tabelaConversaoFahrenheitCelsius();
+            //CalculadoraLoop.tabelaConversaoFahrenheitCelsius();
+            CalculadoraLoop.sistemaEleitoral();
         }
     }
 }
